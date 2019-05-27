@@ -1,0 +1,80 @@
+Loading spam dataset...
+>> Imported  4601  lines from file:  ./raw_data/spambase/spambase.data
+
+
+[kNN]:  k:   3  avg_accuracy:  0.8326361789332036  avg_f1_score:  0.7866698552000211
+[kNN]:  k:   4  avg_accuracy:  0.8358932698169651  avg_f1_score:  0.7902714311172238
+[kNN]:  k:   5  avg_accuracy:  0.8348072461507892  avg_f1_score:  0.7897853121697189
+[kNN]:  k:   6  avg_accuracy:  0.8324173626611616  avg_f1_score:  0.7859851302742193
+[kNN]:  k:   7  avg_accuracy:  0.8324150007284082  avg_f1_score:  0.7864760865077458
+[kNN]:  k:   8  avg_accuracy:  0.8330676544250949  avg_f1_score:  0.787014901650209
+[kNN]:  k:   9  avg_accuracy:  0.8291489275140407  avg_f1_score:  0.7818162893112226
+[kNN]:  k:  10  avg_accuracy:  0.82828786689836    avg_f1_score:  0.7803572978585356
+
+
+
+[kNN]:  k:   1  avg_accuracy:  0.8239551514277312  avg_f1_score:  0.7759324962853873
+[kNN]:  k:   4  avg_accuracy:  0.833093627466391   avg_f1_score:  0.7870823192809295
+[kNN]:  k:   7  avg_accuracy:  0.8326645139072533  avg_f1_score:  0.786883811455519
+[kNN]:  k:  13  avg_accuracy:  0.8307042278699026  avg_f1_score:  0.7838011634162346
+[kNN]:  k:  22  avg_accuracy:  0.8252713171365773  avg_f1_score:  0.7750600080366163
+[kNN]:  k:  31  avg_accuracy:  0.8150562692722515  avg_f1_score:  0.7630664477273441
+
+
+
+
+
+[nvBayes]:  	avg_accuracy:  0.8222150737541499  avg_f1_score:  0.8090704735625396
+[nvBayes]:  	avg_accuracy:  0.8215614954208915  avg_f1_score:  0.80936800194345
+[nvBayes]:  	avg_accuracy:  0.8211238587673115  avg_f1_score:  0.8084497071668864
+
+
+
+
+
+
+params: 1L: (150,)  LRT:  invscaling RT_INIT 0.1 MAX_ITER 600
+[NeuralNets]	avg_accuracy:  0.900897204659264   avg_f1_score:  0.8694541685031643
+[NeuralNets]	avg_accuracy:  0.9009000299376773  avg_f1_score:  0.8694635300683429
+[NeuralNets] 	avg_accuracy:  0.9028485474062196  avg_f1_score:  0.8723060307745033
+
+
+params: 1L: (150,)  LRT:  invscaling RT_INIT 0.08 MAX_ITER 600
+[NeuralNets] 	avg_accuracy:  0.8978480594035847  avg_f1_score:  0.8639932835264759
+
+params: 1L: (150,)  LRT:  invscaling RT_INIT 0.075 MAX_ITER 600
+[NeuralNets] 	avg_accuracy:  0.8963343492007134  avg_f1_score:  0.8615835643660252
+
+params: 1L: (150,)  LRT:  invscaling RT_INIT 0.05 MAX_ITER 600    (more time)
+[NeuralNets] 	avg_accuracy:  0.882195832067095   avg_f1_score:  0.8384348948153406
+
+
+params: 1L: (150,)  LRΤ:  constant RT_INIT 0.01 MAX_ITER 600
+WITH ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet
+[NeuralNets] 	avg_accuracy:  0.9361009740121645  avg_f1_score:  0.9182484704543858
+[NeuralNets] 	avg_accuracy:  0.9343538269783063  avg_f1_score:  0.916205967525314
+
+
+
+Svm params:  kernel linear,  C_value:1.0
+[SVM]  avg_accuracy:  0.9287167349151193  avg_f1_score:  0.9082235648965279
+[SVM]  avg_accuracy:  0.9280565608409835  avg_f1_score:  0.9072787871615363
+
+Svm params:  kernel linear,  C_value:0.5
+[SVM]  avg_accuracy:  0.9291458628574929  avg_f1_score:  0.908710296657491
+[SVM]  avg_accuracy:  0.9280617418879066  avg_f1_score:  0.9072898026862244
+
+ 
+Svm params:  kernel rbf, g:auto,  C_value:1.0
+[SVM]  avg_accuracy:  0.9341487127928814  avg_f1_score:  0.9146153797178262
+[SVM]  avg_accuracy:  0.93197952361491    avg_f1_score:  0.9116484976843843
+
+
+Svm params:  kernel rbf, g:2,     C_value 1.0
+[SVM]  avg_accuracy:  0.7887414607244179  avg_f1_score:  0.6332728962128302
+[SVM]  avg_accuracy:  0.7898241711095454  avg_f1_score:  0.6369414390767034
+
+Svm params:  kernel rbf g:0.0001  C_value:1.0
+[SVM]  avg_accuracy:  0.8352463057173155  avg_f1_score:  0.7487595948125044
+[SVM]  avg_accuracy:  0.834597910485728   avg_f1_score:  0.7477586119014441
+

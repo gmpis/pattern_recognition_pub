@@ -1,0 +1,74 @@
+Occupancy dataset: 8143  lines from file: datatraining.txt
+
+
+[kNN]:  k:  1  	avg_accuracy:  0.990298757214973  avg_f1_score:  0.9771648657816556
+[kNN]:  k:  4  	avg_accuracy:  0.9896842051280282  avg_f1_score:  0.97592563257466
+[kNN]:  k:  13  avg_accuracy:  0.990420854026903  avg_f1_score:  0.9778847883310646
+
+ 
+
+[nvBayes]:  	avg_accuracy:  0.9778954139310013  avg_f1_score:  0.9504527029202638
+[nvBayes]:  	avg_accuracy:  0.9782650201956112  avg_f1_score:  0.9513602999972142
+
+ 
+
+L: (150,)  LRt:  constant RT_INIT 0.01 MAX_ITER 700
+[NeuralNets] 	avg_accuracy:  0.9247231511913558  avg_f1_score:  0.8409392954573738
+[NeuralNets] 	avg_accuracy:  0.9230012902697575  avg_f1_score:  0.8370037521900058
+
+L: (150, 100)  LRt:  constant RT_INIT 0.01 MAX_ITER 700
+[NeuralNets] 	avg_accuracy:  0.9296329340043826  avg_f1_score:  0.8537435497485779
+[NeuralNets] 	avg_accuracy:  0.9317198850332211  avg_f1_score:  0.8588965859758039
+
+L: (150, 150)  LRt:  constant RT_INIT 0.01 MAX_ITER 700
+[NeuralNets] 	avg_accuracy:  0.9285315087078608  avg_f1_score:  0.850403893826079
+[NeuralNets] 	avg_accuracy:  0.9292686101865917  avg_f1_score:  0.8529832630922665
+
+
+
+  
+linear kernel
+[SVM]  		avg_accuracy:  0.9862487730422895  avg_f1_score:  0.968357836932976
+[SVM]  		avg_accuracy:  0.9867370065871413  avg_f1_score:  0.969477634851658
+
+
+
+kernel: rbf, gam: auto, C_val: 1.0
+[SVM]  		avg_accuracy:  0.9540709224339496  avg_f1_score:  0.9019965450662262
+[SVM] 		avg_accuracy:  0.9544364547382227  avg_f1_score:  0.9027050499195823
+
+
+kernel: rbf, gam: 0.5, C_val: 1.0
+[SVM]  		avg_accuracy:  0.9449809133113414  avg_f1_score:  0.8848932655294656
+[SVM]  		avg_accuracy:  0.9444932867908442  avg_f1_score:  0.8841172548977287
+
+kernel: rbf, gam: 0.005, C_val: 1.0
+[SVM]  		avg_accuracy:  0.9885800606442177  avg_f1_score:  0.9736403168989753
+[SVM]  		avg_accuracy:  0.9884563061032849  avg_f1_score:  0.9733307305447028
+
+
+
+
+
+Class 0:  4770 , Class 1:  1141 , Total:  5911
+[kNN]:  k:  4   avg_accuracy:  0.9876503406960259  avg_f1_score:  0.968451267470593
+[nvBayes]: 	avg_accuracy:  0.984096469566013   avg_f1_score:  0.95986212587444
+
+Neural params: L: (150, 150)  LRt:  constant RT_INIT 0.01 MAX_ITER 700
+[NeuralNets] 	avg_accuracy:  0.9314860863401473  avg_f1_score:  0.8479659302250623
+
+kernel: rbf gam: 0.005 C_val: 1.0
+[SVM]  		avg_accuracy:  0.9857902318562217  avg_f1_score:  0.9644234302256125
+
+
+Class 0:  3318 , Class 1:  1141 , Total:  4459
+[kNN]:  k:  4  	avg_accuracy:  0.982729872337701  avg_f1_score:  0.966834111044969
+[nvBayes]:  	avg_accuracy:  0.9755564802281074  avg_f1_score:  0.95299781040785
+
+Neural params: L: (150, 150)  LRt:  constant RT_INIT 0.01 MAX_ITER 700
+[NeuralNets] 	avg_accuracy:  0.9244187429811209  avg_f1_score:  0.8713696589522089
+
+kernel: rbf gam: 0.005 C_val: 1.0
+[SVM]  		avg_accuracy:  0.9813875949672713  avg_f1_score:  0.9647105789678244
+
+
